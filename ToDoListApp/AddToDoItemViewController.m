@@ -26,6 +26,8 @@
     
     UIBarButtonItem *cancelButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(cancelPressed:)];
     self.navigationItem.leftBarButtonItem = cancelButton;
+
+    self.view.backgroundColor = [UIColor redColor];
     
 }
 
